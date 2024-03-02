@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import ellipse from './ellipse.svg';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <div className="overlap-group-wrapper">
             <div className="overlap-group">
               <div className="ellipse" />
-              <img className="img" alt="Ellipse" src="ellipse-4.svg" />
+              <img className="img" alt="Ellipse" src={ellipse} />
             </div>
           </div>
         </div>
