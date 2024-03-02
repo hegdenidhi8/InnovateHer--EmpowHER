@@ -1,5 +1,8 @@
 import ellipse from './ellipse.svg';
 import './App.css';
+import image1 from './image1.png';
+import mask from './mask.png';
+import Background from './Background.png';
 
 function App() {
   return (
@@ -7,7 +10,7 @@ function App() {
     <div className="overlap-wrapper">
       <div className="overlap">
         <div className="frame">
-          <img className="group" alt="Group" src="group-997.png" />
+          <img className="group" alt="Group" src={Background} />
         </div>
         <div className="group-wrapper">
           <div className="overlap-group-wrapper">
@@ -43,8 +46,8 @@ function App() {
             </div>
           </div>
         </div>
-        <img className="svg" alt="Svg" src="svg-h2d-32016369.svg" />
-        <img className="mask-group" alt="Mask group" src="mask-group.png" />
+        <img className="svg" alt="Svg" src={image1} />
+        <img className="mask-group" alt="Mask group" src={mask.png} />
       </div>
     </div>
   </div>
